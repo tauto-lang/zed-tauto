@@ -1,0 +1,6 @@
+# A nightly Cargo, so the publish-age cooldown in .cargo/config.toml is
+# enforced; stable Cargo ignores those keys with a warning. Pinned by date
+# so every machine builds the same way.
+[toolchain]
+channel = "nightly-2026-10-06"
+targets = ["wasm32-wasip2"]

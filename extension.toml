@@ -1,0 +1,15 @@
+id = "tauto"
+name = "Tauto"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ryo Hirayama <ryo12redstone@gmail.com>"]
+description = "Tauto language support"
+repository = "https://github.com/tauto-lang/zed-tauto"
+
+[language_servers.tauto]
+name = "Tauto"
+languages = ["Tauto"]
+
+[grammars.tauto]
+repository = "https://github.com/tauto-lang/tree-sitter-tauto"
+rev = "28cf3222320221d882a1ffac858398c5fd1de214"

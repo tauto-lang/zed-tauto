@@ -1,0 +1,21 @@
+# Ignore everything, then list what is published.
+*
+!*/
+!.gitignore
+
+# Documents and licenses
+!/README.md
+!/LICENSE-MIT
+!/LICENSE-APACHE
+
+# Extension manifest and language configuration
+!/extension.toml
+!/languages/tauto/*.toml
+!/languages/tauto/*.scm
+
+# Rust source, toolchain and dependencies
+!/Cargo.toml
+!/Cargo.lock
+!/src/*.rs
+!/rust-toolchain.toml
+!/.cargo/config.toml
