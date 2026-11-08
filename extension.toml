@@ -12,4 +12,4 @@ languages = ["Tauto"]
 
 [grammars.tauto]
 repository = "https://github.com/tauto-lang/tree-sitter-tauto"
-rev = "28cf3222320221d882a1ffac858398c5fd1de214"
+rev = "77cff425258d71c2b66cdac74b3639aa30963fe0"

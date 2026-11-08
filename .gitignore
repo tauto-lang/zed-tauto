@@ -12,6 +12,7 @@
 !/extension.toml
 !/languages/tauto/*.toml
 !/languages/tauto/*.scm
+!/languages/tauto/semantic_token_rules.json
 
 # Rust source, toolchain and dependencies
 !/Cargo.toml
@@ -19,3 +20,6 @@
 !/src/*.rs
 !/rust-toolchain.toml
 !/.cargo/config.toml
+
+# Grammar clones and builds fetched by Zed
+/grammars/
